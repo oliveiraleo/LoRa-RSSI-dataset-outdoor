@@ -1,1 +1,35 @@
-# LoRa-RSSI-dataset
+# LoRa-RSSI-dataset-outdoor
+
+This repository contains the CSV files with RSSI measurements obtained in a LoRaWAN network. This data belongs to the dataset created during the development of my monography.
+
+The data contained here was created using the [LoRa RSSI Grabber](https://github.com/oliveiraleo/LoRa-RSSI-Grabber) program and was used as input on [RSSignal](https://github.com/oliveiraleo/RSSignal-LoRa) framework.
+
+## File description
+
+All file names begin with the timestamp (local time) taken on the start of the measurement collection. Each CSV file contains a header with descriptive naming labels.
+
+The suffixes mean the following:
+
+* `LoRa-Device-GPS-RSSI-data`: Data collected by the LoRa device and the GPS device. The time is local time; GPS reported timestamps are in GMT-0 time zone; GPS position is in decimal degrees; Other GPS data; and device's measured RSSI.
+* `GW-MQTT-API-data`: RAW data received by the MQTT API (JSON-like format).
+* `LoRa-RSSI-GW-decoded`: As the API gave the ID in base64 format, it was neccessary to decode it. Packet id; and gateway RSSI measurement.
+* `RSSI-data`: Gateway and device's RSSI data only, ready to be reused later on. NOTE: The measurements were synced, so the first packet is on the top and so on.
+* `Full-Collected-data`: All the collected data joined in a single file, easier to analyze everything at the same time, or crop the file if needed. The id was used to sync the packets in order and discard the ones lost during the survey process.
+
+For additional information, please refer to the [LoRa RSSI Grabber](https://github.com/oliveiraleo/LoRa-RSSI-Grabber) repository.
+
+## Citing this work
+
+If you used any of the data available here, please, cite it as:
+
+[TODO]
+
+### Latex citation
+
+[TODO]
+
+## Acknowledgements
+
+## License
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
