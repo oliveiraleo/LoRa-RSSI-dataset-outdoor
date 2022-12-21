@@ -1,6 +1,6 @@
 # LoRa-RSSI-dataset-outdoor
 
-This repository contains the CSV files with RSSI measurements obtained in a LoRaWAN network. This data belongs to the dataset created during the development of my monography.
+This repository contains the CSV files with RSSI measurements obtained in a LoRaWAN network. This data belongs to the dataset created during the development of my monograph.
 
 The data contained here was created using the [LoRa RSSI Grabber](https://github.com/oliveiraleo/LoRa-RSSI-Grabber) program and was used as input on [RSSignal](https://github.com/oliveiraleo/RSSignal-LoRa) framework.
 
@@ -12,9 +12,11 @@ The suffixes mean the following:
 
 * `LoRa-Device-GPS-RSSI-data`: Data collected by the LoRa device and the GPS device. The time is local time; GPS reported timestamps are in GMT-0 time zone; GPS position is in decimal degrees; Other GPS data; and device's measured RSSI.
 * `GW-MQTT-API-data`: RAW data received by the MQTT API (JSON-like format).
-* `LoRa-RSSI-GW-decoded`: As the API gave the ID in base64 format, it was neccessary to decode it. Packet id; and gateway RSSI measurement.
+* `LoRa-RSSI-GW-decoded`: As the API gave the ID in base64 format, it was necessary to decode it. Packet id; and gateway RSSI measurement.
 * `RSSI-data`: Gateway and device's RSSI data only, ready to be reused later on. NOTE: The measurements were synced, so the first packet is on the top and so on.
 * `Full-Collected-data`: All the collected data joined in a single file, easier to analyze everything at the same time, or crop the file if needed. The id was used to sync the packets in order and discard the ones lost during the survey process.
+
+Each folder name briefly describes the environment where survey occurred. ‘LOS’ and ‘NLOS’ mean, respectively, “Line of Sight” and “Non Line of Sight”.
 
 For additional information, please refer to the [LoRa RSSI Grabber](https://github.com/oliveiraleo/LoRa-RSSI-Grabber) repository.
 
