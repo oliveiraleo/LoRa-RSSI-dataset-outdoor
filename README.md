@@ -20,6 +20,12 @@ Each folder name briefly describes the environment where survey occurred. ‘LOS
 
 For additional information, please refer to the [LoRa RSSI Grabber](https://github.com/oliveiraleo/LoRa-RSSI-Grabber) repository.
 
+## Campus test environment
+
+There's a preview of the GPS data below:![Map preview](./map-data/preview.jpg)
+
+You can find an interactive map containing the RSSI measurements and precise gateway location inside the [map-data](./map-data/) folder
+
 ## Citing this work
 
 If you used any of the data available here, please, cite it as:
