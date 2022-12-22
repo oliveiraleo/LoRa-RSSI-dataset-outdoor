@@ -1,0 +1,6 @@
+Latitude:  -21.7788416255599
+Longitude: -43.373362355391
+Altitude:  932
+(lat,lon): (-21.7788416255599, -43.373362355391)
+
+NOTE: Position in decimal degrees, altitude in meters above sea level
