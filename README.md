@@ -30,13 +30,17 @@ You can find an interactive map containing the RSSI measurements and precise gat
 
 If you used any of the data available here, please, cite it as:
 
-[TODO]
+[TODO] Waiting for the work to be released to update here
 
 ### Latex citation
 
-[TODO]
+[TODO] Waiting for the work to be released to update here
 
 ## Acknowledgements
+
+The authors would like to thank Mr. Rogerio Casagrande and Mr. Thiago Scher, members of the LTA (Laboratorio de Telecomunicacoes Aplicadas) laboratory from the Engineering Faculty of the [Federal University of Juiz de Fora](https://ufjf.br), for assisting the configuration process and lending the LoRa equipment used to carry out the surveys that generated the data for this repository
+
+We would like to acknowledge Mr. Adam Schneider for making available (free of charge) his  website [GPS visualizer](https://www.gpsvisualizer.com/), which was used to create the maps contained in this repository
 
 ## License
 
