@@ -1,0 +1,29 @@
+NOTE: GPS data in decimal degrees, altitude in meters above sea level
+
+=> static_LOS_near_GW
+
+Latitude:  -21,7788964810484
+Longitude: -43,3732762945565
+Altitude:  930
+(lat,lon): (-21,7788964810484, -43,3732762945565)
+
+=> static_LOS_away_from_GW
+
+Latitude:  -21,7761461628077
+Longitude: -43,3722957140386
+Altitude:  932
+(lat,lon): (-21,7761461628077, -43,3722957140386)
+
+=> static_NLOS
+
+Latitude:  -21,7761402041667
+Longitude: -43,371458230315
+Altitude:  905
+(lat,lon): (-21,7761402041667, -43,371458230315)
+
+=> LoRa_GW
+
+Latitude:  -21.7788416255599
+Longitude: -43.373362355391
+Altitude:  932
+(lat,lon): (-21.7788416255599, -43.373362355391)
