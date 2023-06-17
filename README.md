@@ -22,15 +22,17 @@ For additional information, please refer to the [LoRa RSSI Grabber](https://gith
 
 ## Campus test environment
 
-There's a preview of the GPS data below:![Map preview](./map-data/preview.jpg)
+There's a preview of the GPS data below:![Map preview](./map-data/preview-datapoints-movement.jpg)
 
-You can find an interactive map containing the RSSI measurements and precise gateway location inside the [map-data](./map-data/) folder
+It's possible to find one interactive map containing the RSSI measurements and precise gateway location, another map containing the precise locations of the static experiments and a snapshot of the weather data inside the [map-data](./map-data/) folder
 
 ## Citing this work
 
 If you used any of the data available here, please, cite it as:
 
-De Oliveira, L. A. (2023). *Arcabouços para Coleta de RSSI e Evolução de Técnicas de Acordo de Chaves em Redes LoRaWAN.* Federal University of Juiz de Fora.
+*Submitted paper under peer review*
+
+<!-- De Oliveira, L. A. (2023). *Arcabouços para Coleta de RSSI e Evolução de Técnicas de Acordo de Chaves em Redes LoRaWAN.* Federal University of Juiz de Fora.
 
 ### Latex citation
 
@@ -46,13 +48,15 @@ Or you can use the Latex citation below:
  school = {Federal University of Juiz de Fora},
  key = {OLIVEIRA,2023}
 }
-```
+``` -->
 
 ## Acknowledgements
 
-The authors would like to thank Mr. Rogerio Casagrande and Mr. Thiago Scher, members of the LTA (Laboratorio de Telecomunicacoes Aplicadas) laboratory from the Engineering Faculty of the [Federal University of Juiz de Fora](https://ufjf.br), for assisting the configuration process and lending the LoRa equipment used to carry out the surveys that generated the data for this repository
+The authors would like to thank Mr. Rogerio Casagrande and Mr. Thiago Scher, members of the LTA (Laboratório de Telecomunicações Aplicadas) laboratory from the Engineering Faculty of the [Federal University of Juiz de Fora](https://ufjf.br), for assisting the configuration process and lending the LoRa equipment used to carry out the surveys that generated the data for this repository
 
 We would like to acknowledge Mr. Adam Schneider for making available (free of charge) his  website [GPS visualizer](https://www.gpsvisualizer.com/), which was used to create the maps contained in this repository
+
+We would like to acknowledge also the [LABCAA](https://www2.ufjf.br/labcaa/) (Laboratório de Climatologia e Análise Ambiental) from [Federal University of Juiz de Fora](https://ufjf.br) and the [INMET](https://portal.inmet.gov.br/sobre) (Instituto Nacional de Meteorologia) for making their weather data publicly available.
 
 ## License
 
