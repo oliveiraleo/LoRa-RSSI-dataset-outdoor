@@ -28,27 +28,26 @@ It's possible to find one interactive map containing the RSSI measurements and p
 
 ## Citing this work
 
-If you used any of the data available here, please, cite it as:
+If you used any of the data available in this repository or [our tool](https://github.com/oliveiraleo/LoRa-RSSI-Grabber), please, cite it as:
 
-*Submitted paper under peer review*
+L. Oliveira, L. Chaves, and E. Silva. "Explorando o RSSI na Geração de Chaves para LoRaWAN", in *Anais do XXIII Simpósio Brasileiro de Segurança da Informação e de Sistemas Computacionais*, Juiz de Fora/MG, 2023, pp. 1-14, doi: https://doi.org/10.5753/sbseg.2023.232890.
 
-<!-- De Oliveira, L. A. (2023). *Arcabouços para Coleta de RSSI e Evolução de Técnicas de Acordo de Chaves em Redes LoRaWAN.* Federal University of Juiz de Fora.
-
-### Latex citation
-
-Or you can use the Latex citation below:
+Or use the BibTex citation below:
 
 ```
-@phdthesis{leonardo2023arcaboucos,
- title = {Arcabouços para Coleta de RSSI e Evolução de Técnicas de Acordo de Chaves em Redes LoRaWAN},
- author = {Leonardo Azalim de Oliveira},
- month = {01},
+@inproceedings{sbseg,
+ author = {Leonardo Oliveira and Luciano Chaves and Edelberto Silva},
+ title = {Explorando o RSSI na Geração de Chaves para LoRaWAN},
+ booktitle = {Anais do XXIII Simpósio Brasileiro de Segurança da Informação e de Sistemas Computacionais},
+ location = {Juiz de Fora/MG},
  year = {2023},
- note = {Available at  http://monografias.ice.ufjf.br/tcc-web/tcc?id=724},
- school = {Federal University of Juiz de Fora},
- key = {OLIVEIRA,2023}
+ pages = {1--14},
+ publisher = {SBC},
+ address = {Porto Alegre, RS, Brasil},
+ doi = {10.5753/sbseg.2023.232890},
+ url = {https://sol.sbc.org.br/index.php/sbseg/article/view/27193}
 }
-``` -->
+```
 
 ## Acknowledgements
 
